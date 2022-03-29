@@ -1,3 +1,27 @@
 // Page
 @import "../blocks/page/_page";
 @import "../blocks/page/_content/page__content";
+
+@import "../blocks/header/header";
+
+@import "../blocks/content/content";
+@import "../blocks/left-panel/left-panel";
+@import "../blocks/gallery/gallery";
+
+@import "../blocks/footer/footer";
+
+@import "../blocks/logo/logo";
+@import "../blocks/header/__logo/header__logo";
+@import "../blocks/header/__center-block/header__center-block";
+@import "../blocks/header/__right-block/header__right-block";
+
+@import "../blocks/left-panel/__left-panel__block/left-panel__left-panel__block";
+@import "../blocks/gallery/__gallery__top/gallery__gallery__top";
+@import "../blocks/gallery/__gallery__image/gallery__gallery__image";
+@import "../blocks/gallery/__gallery__center/gallery__gallery__center";
+@import "../blocks/gallery/__gallery__bottom/gallery__gallery__bottom";
+@import "../blocks/footer/__footer__left-block/footer__footer__left-block";
+@import "../blocks/footer/__footer__center-block/footer__footer__center-block";
+@import "../blocks/footer/__footer__right-block/footer__footer__right-block";
+@import "../blocks/footer/__footer__top-block/footer__footer__top-block";
+@import "../blocks/footer/__footer__logo/footer__footer__logo";
