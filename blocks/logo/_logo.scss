@@ -1,6 +1,10 @@
 .logo {
   &_place_header {
-    min-height: 90%;
     width: 15%;
+  }
+
+  &_place_footer {
+    width: 100%;
+    overflow: hidden;
   }
 }

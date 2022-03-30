@@ -5,6 +5,9 @@
 @import "../blocks/page/_page";
 @import "../blocks/page/_content/page__content";
 
+// logo
+@import "../blocks/logo/logo";
+
 // Block
 @import "../blocks/block/block";
 
@@ -20,36 +23,20 @@
 @import "../blocks/left-panel/__block/left-panel__block";
 @import "../blocks/left-panel/__image/left__panel__image";
 
-
 @import "../blocks/gallery/gallery";
 @import "../blocks/gallery/__top/_gallery__top";
 @import "../blocks/gallery/__center/_gallery__center";
 @import "../blocks/gallery/__bottom/_gallery__bottom";
 @import "../blocks/gallery/__bottom-block/_gallery__bottom-block";
-
 @import "../blocks/gallery/__image/_gallery__image";
 
+// Popup
 @import "../blocks/popup/popup";
 
-
-
+// Footer
 @import "../blocks/footer/footer";
-
-@import "../blocks/logo/logo";
-
-
-
-
-
-
-
-@import "../blocks/footer/__footer__left-block/footer__footer__left-block";
-@import "../blocks/footer/__footer__center-block/footer__footer__center-block";
-@import "../blocks/footer/__footer__right-block/footer__footer__right-block";
-@import "../blocks/footer/__footer__top-block/footer__footer__top-block";
-@import "../blocks/footer/__footer__logo/footer__footer__logo";
-
-
-* {
-  outline: 1px blue solid;
-}
+@import "../blocks/footer/__left-block/_footer__left-block";
+@import "../blocks/footer/__center-block/_footer__center-block";
+@import "../blocks/footer/__right-block/_footer__right-block";
+@import "../blocks/footer/__top-block/_footer__top-block";
+@import "../blocks/footer/__logo/_footer__logo";
