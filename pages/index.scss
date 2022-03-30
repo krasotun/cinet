@@ -17,12 +17,17 @@
 // Main
 @import "../blocks/content/content";
 @import "../blocks/left-panel/left-panel";
-@import "../blocks/left-panel/__left-panel__block/left-panel__block";
-@import "../blocks/left-panel/__left-panel__image/left__panel__image";
+@import "../blocks/left-panel/__block/left-panel__block";
+@import "../blocks/left-panel/__image/left__panel__image";
 
 
 @import "../blocks/gallery/gallery";
+@import "../blocks/gallery/__top/_gallery__top";
+@import "../blocks/gallery/__center/_gallery__center";
+@import "../blocks/gallery/__bottom/_gallery__bottom";
+@import "../blocks/gallery/__bottom-block/_gallery__bottom-block";
 
+@import "../blocks/gallery/__image/_gallery__image";
 
 @import "../blocks/popup/popup";
 
@@ -34,10 +39,9 @@
 
 
 
-@import "../blocks/gallery/__gallery__top/gallery__gallery__top";
-@import "../blocks/gallery/__gallery__image/gallery__gallery__image";
-@import "../blocks/gallery/__gallery__center/gallery__gallery__center";
-@import "../blocks/gallery/__gallery__bottom/gallery__gallery__bottom";
+
+
+
 
 @import "../blocks/footer/__footer__left-block/footer__footer__left-block";
 @import "../blocks/footer/__footer__center-block/footer__footer__center-block";
