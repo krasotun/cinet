@@ -2,6 +2,11 @@
   &_place_header {
     width: 130px;
     height: 130px;
+
+    @include media-mobile-big {
+      width: 65px;
+      height: 65px;
+    }
   }
 
   &_place_footer {

@@ -13,7 +13,7 @@ function createImage(number, alt, link, imageSelector) { // Создаем ка�
   return newImageFromTemplate
 }
 
-function addImagesToGallery() { // Вставляем картики в галерею
+function addImagesToGallery() { // Вставляем  в галерею
   initialImages.forEach(item => {
     galleryForAddingImages.append(createImage(item.number, item.alt, item.link, "#image-template"));
   });
