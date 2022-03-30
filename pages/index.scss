@@ -1,8 +1,22 @@
+// Abstract
+@import "../abstract/constants";
+
 // Page
 @import "../blocks/page/_page";
 @import "../blocks/page/_content/page__content";
 
+// Block
+@import "../blocks/block/block";
+// Header
 @import "../blocks/header/header";
+@import "../blocks/header/__logo/header__logo";
+@import "../blocks/header/__center-block/header__center-block";
+@import "../blocks/header/__right-block/header__right-block";
+
+
+
+
+@import "../blocks/popup/popup";
 
 @import "../blocks/content/content";
 @import "../blocks/left-panel/left-panel";
@@ -11,9 +25,7 @@
 @import "../blocks/footer/footer";
 
 @import "../blocks/logo/logo";
-@import "../blocks/header/__logo/header__logo";
-@import "../blocks/header/__center-block/header__center-block";
-@import "../blocks/header/__right-block/header__right-block";
+
 
 @import "../blocks/left-panel/__left-panel__block/left-panel__left-panel__block";
 @import "../blocks/gallery/__gallery__top/gallery__gallery__top";

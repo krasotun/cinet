@@ -1,0 +1,9 @@
+.block {
+  &_color_dark {
+    background-color: $color-dark;
+  }
+
+  &_color_light {
+    background-color: $color-light;
+  }
+}
