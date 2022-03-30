@@ -5,7 +5,11 @@ export class Image {
     this.link = link;
     this.imageSelector = imageSelector;
   }
-
+  _setEventListeners() { // Навешиваем события
+    this._element.addEventListener('click', (evt) => {
+      console.log('clicked');
+    });
+  }
   _getTemplate() { // Берем шаблон
     const imageElement = document
       .querySelector(this.imageSelector)
@@ -20,6 +24,8 @@ export class Image {
     this._element.src = this.link;
     this._element.alt = this.alt;
     this._element.id = this.number;
+
+    this._setEventListeners();
     return this._element
   }
 }

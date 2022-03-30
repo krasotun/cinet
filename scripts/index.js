@@ -6,7 +6,6 @@ import {
 } from './Image.js';
 
 const galleryForAddingImages = document.querySelector('.gallery__center');
-console.log(galleryForAddingImages);
 
 function createImage(number, alt, link, imageSelector) { // Создаем картинку из конструктора
   const image = new Image(number, alt, link, imageSelector);
@@ -14,10 +13,9 @@ function createImage(number, alt, link, imageSelector) { // Создаем ка�
   return newImageFromTemplate
 }
 
-function addImagesToGallery() {
+function addImagesToGallery() { // Вставляем картики в галерею
   initialImages.forEach(item => {
     galleryForAddingImages.append(createImage(item.number, item.alt, item.link, "#image-template"));
   });
 }
-
 addImagesToGallery();
