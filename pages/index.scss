@@ -32,6 +32,13 @@
 
 // Popup
 @import "../blocks/popup/popup";
+@import "../blocks/popup/__container/popup__container";
+
+@import "../blocks/popup-pic/popup-pic";
+@import "../blocks/popup-pic/__container/popup-pic__container";
+@import "../blocks/popup-pic/__image/popup-pic__image";
+@import "../blocks/popup-pic/__close/popup-pic__close";
+@import "../blocks/popup-pic/__text/popup-pic__text";
 
 // Footer
 @import "../blocks/footer/footer";

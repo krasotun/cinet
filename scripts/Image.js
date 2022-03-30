@@ -1,3 +1,7 @@
+import {
+  openPopupPic
+} from "./index.js";
+
 export class Image {
   constructor(number, alt, link, imageSelector) {
     this.number = number;
@@ -7,9 +11,13 @@ export class Image {
   }
   _setEventListeners() { // Навешиваем события
     this._element.addEventListener('click', (evt) => {
-      console.log('clicked');
+      this._openNewPopup(evt);
     });
   }
+  _openNewPopup() {
+    openPopupPic(this.alt, this.link, this.number);
+  }
+
   _getTemplate() { // Берем шаблон
     const imageElement = document
       .querySelector(this.imageSelector)
@@ -17,6 +25,7 @@ export class Image {
       .querySelector('.gallery__image')
       .cloneNode(true);
     return imageElement
+
   }
   generateImage() { // Создаем карточку
     this._element = this._getTemplate();
