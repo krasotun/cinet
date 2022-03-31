@@ -15,11 +15,6 @@
 #### Выполнил: Ибрагимов Марат.
 #### IDE: VSCode with plugins.
 [Макет](https://1drv.ms/u/s!AlZ5_XriuO1G3YAgbdoAPhuOAnZHsg?e=aQan1M)
-[Деплой](https://krasotun.github.io/mesto/)
+[Деплой](https://krasotun.github.io/cinet/)
 
-![krasotun github io_mesto_](https://user-images.githubusercontent.com/88790010/157275533-52472c5d-38dd-4483-8ac4-54012a5b4660.png)
-
-
-
-
-
+![krasotun github io_cinet_](https://user-images.githubusercontent.com/88790010/161042418-052f6209-49cf-4554-a6da-19976e3ab289.png)
