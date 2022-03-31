@@ -1,3 +1,7 @@
-.left-panel-image {
+.left-panel__image {
   width: 100%;
+
+  @include media-tablet {
+    margin-top: 20px;
+  }
 }

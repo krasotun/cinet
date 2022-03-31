@@ -4,6 +4,7 @@ import {
 import {
   Image
 } from './Image.js';
+
 // Images
 const galleryForAddingImages = document.querySelector('.gallery__center');
 

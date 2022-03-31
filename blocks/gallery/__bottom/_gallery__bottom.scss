@@ -2,4 +2,11 @@
   display: flex;
   justify-content: space-between;
   gap: 15px;
+
+  @include media-tablet {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+  }
 }

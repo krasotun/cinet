@@ -2,4 +2,7 @@
   width: 460px;
   min-height: 130px;
 
+  @include media-mobile-big {
+    width: 90%
+  }
 }

@@ -1,4 +1,8 @@
 .gallery__top {
   width: 100%;
   min-height: 250px;
+
+  @include media-tablet {
+    width: 90%;
+  }
 }

@@ -1,0 +1,15 @@
+.footer__block {
+  width: 33%;
+  min-height: 230px;
+
+  &_2-rows {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    gap: 20px;
+  }
+
+  @include media-mobile-big {
+    width: 100%;
+  }
+}

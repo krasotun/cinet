@@ -4,7 +4,6 @@
 
 // Page
 @import "../blocks/page/_page";
-@import "../blocks/page/_content/page__content";
 
 // logo
 @import "../blocks/logo/logo";
@@ -43,8 +42,6 @@
 
 // Footer
 @import "../blocks/footer/footer";
-@import "../blocks/footer/__left-block/_footer__left-block";
-@import "../blocks/footer/__center-block/_footer__center-block";
-@import "../blocks/footer/__right-block/_footer__right-block";
-@import "../blocks/footer/__top-block/_footer__top-block";
+@import "../blocks/footer/__block/footer__block";
+@import "../blocks/footer/__row-block/_footer__row-block";
 @import "../blocks/footer/__logo/_footer__logo";

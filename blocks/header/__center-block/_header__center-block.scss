@@ -1,4 +1,8 @@
 .header__center-block {
   width: 300px;
   min-height: 130px;
+
+  @include media-mobile-small {
+    width: 90%;
+  }
 }

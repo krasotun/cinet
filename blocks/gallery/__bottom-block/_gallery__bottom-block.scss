@@ -1,4 +1,8 @@
 .gallery__bottom-block {
   min-height: 250px;
-  flex-basis: 49%;
+  width: 49%;
+
+  @include media-tablet {
+    width: 100%;
+  }
 }

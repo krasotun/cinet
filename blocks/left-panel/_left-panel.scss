@@ -3,4 +3,8 @@
   width: 25%;
   flex-direction: column;
   justify-content: space-between;
+
+  @include media-tablet {
+    width: 90%;
+  }
 }
